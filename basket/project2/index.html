@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Shopping Cart</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dosis:400,700'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'><link rel="stylesheet" href="./style/index.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="header">
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1><i class="ion-iphone"></i> Phone Arena</h1>
+      </div>
+      <div class="col-sm-6 text-right">
+        <div class="cart-box">
+          <div class="cart-close">X</div>
+          <div class="cart-text animated"><i class="ion-ios-cart-outline"></i><span class="cart-number">0</span></div>
+          <div class="cart-items-wrap">
+            <div class="no-product">Your cart is empty</div>
+            <div class="cart-items"></div>
+            <div class="cart-total">
+              Total $<span>0</span>
+              <div class="checkout-btn"><a href="#">Checkout</a></div>
+            </div>            
+          </div>
+      </div>
+    </div>
+  </header>
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="pro-item col-sm-6 col-md-3" id="product1">
+          <div class="pro-item-inner" data-id="product1">
+            <div class="pro-img"><img src="http://i63.tinypic.com/2qjitef.jpg" alt=""/></div>
+            <div class="pro-name">Apple iPhone X</div>
+            <div class="pro-price">$998</div>
+            <div class="pro-btn">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="pro-item col-sm-6 col-md-3" id="product2">
+          <div class="pro-item-inner" data-id="product2">
+            <div class="pro-img"><img src="http://i66.tinypic.com/24ecs2h.jpg" alt=""/></div>
+            <div class="pro-name">Samsung Note 8</div>
+            <div class="pro-price">$800</div>
+            <div class="pro-btn">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="pro-item col-sm-6 col-md-3" id="product3">
+          <div class="pro-item-inner" data-id="product3">
+            <div class="pro-img"><img src="http://i66.tinypic.com/9rptgh.jpg" alt=""/></div>
+            <div class="pro-name">Samsung S8</div>
+            <div class="pro-price">$999</div>
+            <div class="pro-btn">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+        <div class="pro-item col-sm-6 col-md-3" id="product4">
+          <div class="pro-item-inner" data-id="product4">
+            <div class="pro-img"><img src="http://i66.tinypic.com/28ng36.png" alt=""/></div>
+            <div class="pro-name">Samsung S7</div>
+            <div class="pro-price">$649</div>
+            <div class="pro-btn">
+              <span>Add to Cart</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script/script.js"></script>
+
+</body>
+</html>
