@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #modal{
+            border: 1px solid lightblue;
+            background-color: lightblue;
+            width: 50%;
+            position: fixed;
+            left: 25%;
+            top: 100px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <script src="assets/js/script2.js"></script>  
+    <button onclick="showModal()">login</button> 
+    <div id="modal">
+        Lorem ipsum dolor sit amet.
+        <button onclick="hideModal()">x</button>
+    </div>
+</body>
+</html>

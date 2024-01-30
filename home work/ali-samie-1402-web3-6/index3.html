@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onmouseenter="showDropDownDetail();clearTimeout(ddtimeout1)" onmouseleave="ddtimeout=setTimeout(200)">stop</button>
+    <div style="border: 1px solid red;display: none;" id="dropDownDetail" onmouseenter="clearTimeout(ddtimeout)" onmouseleave="ddtimeout1=setTimeout(200)">
+        why you thinking
+    </div>
+    <script src="./assets/js/script3.js"></script>
+</body>
+</html>

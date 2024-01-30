@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #sidnav{
+            position: fixed;
+            border: 1px solid lightblue;
+            background-color: tomato;
+            right: -200px;
+            top: 0;
+            height: 100%;
+            width: 200px;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <script src="assets/js/script1.js"></script>
+</body>
+<section id="sidnav">
+    <button onclick="hideSidenava()">x</button>
+</section>
+<button onclick="showSidenava()">show sidenav</button>
+
+</html>
