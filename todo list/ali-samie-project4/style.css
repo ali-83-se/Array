@@ -4,10 +4,10 @@ p {
 }
 
 .list {
-    margin: 50px auto; /*Centers the contents of the container*/
+    margin: 50px auto; 
     width: 400px;
     -webkit-box-shadow: 0 0 5px rgba(0 ,0 ,0 , 0.4);
-    box-shadow: 0 0 5px rgba(0 ,0 ,0 , 0.4); /*Changes the opacity of the box shadow*/
+    box-shadow: 0 0 5px rgba(0 ,0 ,0 , 0.4); 
     background: #f7f7f7;
 }
 
@@ -25,17 +25,17 @@ input {
     font-size: 18px;
     background: #f7f7f7;
     display: none;
-    width: 100%; /*Takes up the whole width of the container*/
+    width: 100%; 
     padding: 13px 13px 13px 20px;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box; /*Prevents the input to be longer than the container*/
-    border: 3px solid rgba(0, 0, 0, 0); /*Sets the border to transparent*/
+    box-sizing: border-box; 
+    border: 3px solid rgba(0, 0, 0, 0); 
 }
 
 input:focus {
     background: white;
-    outline: none; /*Gets rid of any default browser box shadow when clicked*/
-    border: 3px solid #2980b9; /*Create my own box shadowcolor on click*/
+    outline: none; 
+    border: 3px solid #2980b9; 
 }
 
 ul {
@@ -50,15 +50,15 @@ li {
     text-transform: capitalize;
     color: black;
     height: 40px;
-    line-height: 40px; /*Centers the text within the list items*/
+    line-height: 40px; 
     overflow: hidden;
 }
 
 li:nth-child(2n) {
-    background: #f7f7f7 /*Zebra stripes the to do list. move this to javascript code*/
+    background: #f7f7f7 
 }
 
-/*Class to be assigned when the list item is clicked on*/
+
 .completed {
     font-style: italic;
 	color: darkgray;
